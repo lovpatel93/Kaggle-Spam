@@ -3,8 +3,22 @@ Spam Detection – Cluster SMS messages to “Spam” and “Ham” (Kaggle Chal
 
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 
-I have Applied Random Forest algorithm validated using 5-fold GridSearchCV after feature creation to classify whether an incoming mail is a spam or not. I have achieved an overall accuracy of 98% by implementing the Random Forest Algorithm on datasets modeled with both TF-IDF algorithm and Count Vectorizer method (Bag of Words) and compared their model evaluation metrics.
+I have Applied Random Forest algorithm validated using 5-fold GridSearchCV after feature creation to classify whether an incoming mail is a spam or not. Following techniques, packages and functions have been used:
 
+* (Natural Language Toolkit) NLTK
+* Tokenization
+* Removal of Stopwords
+* Stemming
+* Lemmatizing
+* Bag of Words (BoW) or CountVectorizer
+* TF-IDF Vectorizer
+* Feature Engineering
+* Random Forest Classifier
+* GridSearchCV
+* Cross-Validation
+* Model Evaluation metrics (precision, recall, fscore, accuracy, confusion matrix)
+
+I have achieved an overall accuracy of 98% by implementing the Random Forest Algorithm on datasets modeled with both TF-IDF algorithm and Count Vectorizer method (Bag of Words) and compared their model evaluation metrics.
 
 Using Random Forest algorithm for both TF-IDF Vectorizer model and Count Vectorizer model gave us the same values for all metrics:
 
